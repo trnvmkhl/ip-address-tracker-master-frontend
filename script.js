@@ -47,7 +47,7 @@ const maxZoom = 20;
 const subdomains = ['mt0','mt1','mt2','mt3'];
 
 // АПИ карты (можно выбирать разные источники)
-const tileUrl = 'http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}'
+const tileUrl = 'https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}'
 const tiles = L.tileLayer(tileUrl, {attribution, maxZoom, subdomains})
 tiles.addTo(mymap);
 
